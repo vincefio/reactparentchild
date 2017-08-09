@@ -1,10 +1,9 @@
-//1. Using the ES6 import function, import react
+// Include the Main React Dependencies
 import React from 'react';
-
-//2. Using the ES6 import function, import react-dom
 import ReactDom from 'react-dom';
 
-//3. Import the Parent component
-import Parent from './components/Parent'
+// Include the Main Component
+import AudreyII from  './components/AudreyII';
 
-ReactDom.render(<Parent />, document.getElementById("root"));
+// This code here allows us to render our main component (in this case Seymour)
+ReactDom.render(<AudreyII />, document.getElementById("root"));
