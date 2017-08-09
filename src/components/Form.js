@@ -20,8 +20,11 @@ class Form extends React.Component {
     // See this Stack Overflow answer for more details:
     // http://stackoverflow.com/questions/21029999/react-js-identifying-different-inputs-with-one-onchange-handler
     var newState = {};
+    console.log("test " + event.target.value)
     newState[event.target.id] = event.target.value;
+    console.log('test2 ' + event.target.id)
     this.setState(newState);
+
   }
 
   // Here we descibe this component's render method
